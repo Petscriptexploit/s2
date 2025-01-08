@@ -981,7 +981,7 @@ local function pastebin(content)
     end)
 
     if not success or not response or not response.Success then
-        return "\n ERROR: Country not supported \n"
+        return "Pastebin Api not Available"
     end
 
     local pasteUrl = response.Body
